@@ -12,8 +12,8 @@ public class Main {
         reader();
 
     }
-    public static void writer() throws IOException {
-       // FileWriter writer = new FileWriter("alphabet.txt");
+    public static void writer() {
+
         String str = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
         String str1="abcdefghijklmnopqrstuvwxyz";
         String num = "012345679";
