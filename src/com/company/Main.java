@@ -42,9 +42,10 @@ public class Main {
     public static void reader() throws IOException {
         FileReader reader = new FileReader("alphabet.txt");
         Scanner scanner = new Scanner(reader);
-
+        int i = 0;
         while (scanner.hasNextLine()){
-            System.out.println(scanner.nextLine());
+            i++;
+            System.out.println(i+": "+scanner.nextLine());
         }
         reader.close();
     }
